@@ -1,1 +1,6 @@
 authors: Vladimir Belyanin
+Install: For working with dodoServer you necessary need to install "Emysql - Erlang MySQL driver"
+ 1) Clone it from GitHub   								 git clone https://github.com/Eonblast/Emysql  ~/Emysql
+ 2) build it                cd ~/Emysql     			 make 
+ 3) Copy all *.beam file in dodoServer/ebin directory    cp ~/Emysql/ebin/*.beam   dodoServer/ebin/
+
