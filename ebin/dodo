@@ -1,0 +1,4 @@
+#!/bin/bash
+
+erl -boot start_sasl  -s dodo start
+
